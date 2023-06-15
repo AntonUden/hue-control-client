@@ -27,8 +27,6 @@ export default class Client {
 		localBootstrap.connect(config.bridge_username).then((api) => {
 			this.api = api;
 			console.log("Hue API connected");
-
-			this.setRGB(255, 0, 0);
 		});
 
 		this.socket = io.connect(config.url);
