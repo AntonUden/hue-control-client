@@ -14,7 +14,7 @@
     "@types/node": "^20.3.1",
     "console-stamp": "^3.1.1",
     "node-hue-api": "^5.0.0-beta.16",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.1.13",
     "socket.io-client": "^4.7.5"
   }
 }
